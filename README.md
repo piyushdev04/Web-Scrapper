@@ -52,3 +52,7 @@ g++ main.cpp -o scraper -lcurl -pthread
 ```bash
 node server.js
 ```
+
+## License
+
+this project is licensed under the [MIT license](LICENSE).
