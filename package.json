@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "node": "^23.11.0"
+  },
+  "name": "web-scrapper",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyushdev04/Web-Scrapper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyushdev04/Web-Scrapper/issues"
+  },
+  "homepage": "https://github.com/piyushdev04/Web-Scrapper#readme",
+  "description": ""
+}
