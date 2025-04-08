@@ -47,6 +47,8 @@ This C++ program performs the core scraping:
 g++ main.cpp -o scraper -lcurl -pthread
 ```
 
+### Run Command
+
 ```bash
 node server.js
 ```
