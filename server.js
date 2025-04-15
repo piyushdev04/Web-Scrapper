@@ -8,7 +8,7 @@ app.use(express.static('public'));
 
 app.post('/scrape', (req, res) => {
     const urls = req.body.urls;
-    const input = urls.json('\n') + '\ndone\n';
+    const input = urls.join('\n') + '\ndone\n';
 
     const process = exec('./scraper', (err, stdout, stderr) => {
         if (err) return res.status(500).send(stderr || err.message);
